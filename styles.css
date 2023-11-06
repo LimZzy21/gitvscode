@@ -1,3 +1,7 @@
+*{
+    /* color: white; */
+}
+
 .card-text {
     text-align: center;
     justify-content: center;
@@ -11,4 +15,35 @@
 button {
     background-color: none;
     height: 45px;
+}
+
+
+.img-wrap {
+    position: relative;
+    
+}
+
+.img-wrap h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.img-wrap h2{
+position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 100%;
+}
+.img-wrap p{
+position: absolute;
+    left: 0;
+    bottom: 00%;
+    width: 100%;
+}
+
+.social > img{
+    background-color: black;
+    border-radius: 10px;
 }
