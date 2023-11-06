@@ -1,4 +1,14 @@
-.card-text{
+.card-text {
     text-align: center;
-  
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: aqua;
+}
+
+button {
+    background-color: none;
+    height: 45px;
 }
